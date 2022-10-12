@@ -6,7 +6,7 @@ import java.util.ArrayList;
 class Main {
     public static void main(String[] args) throws FileNotFoundException {
         int userChoice = 0;
-
+//I think it works now.
         ArrayList<String> arrayList = new ArrayList<>();
         FileReader fr = new FileReader("names.txt");
         Scanner fileScanner = new Scanner(fr);
